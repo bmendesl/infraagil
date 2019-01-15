@@ -1,0 +1,8 @@
+- name: hello word
+  hosts: all
+  tasks:
+   - name: criando um usuario
+     user:
+      name: devops
+      password: '$1$mLcRNaba$GzkdynFmM5LJ2ahHme/9X.'
+      shell: /bin/bash

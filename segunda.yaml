@@ -1,0 +1,12 @@
+- name: segunda playbook
+  hosts: docker devops
+  tasks:
+   - name: add a user
+     user:
+      name: jorge
+      shell: /bin/bash
+
+   - name: installing a package
+     apt:
+      name: vim
+      state: present
