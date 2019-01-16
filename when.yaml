@@ -12,6 +12,7 @@
        - figlet
        - git
 
+
    - name: instalando pacotes para centos
      yum:
       name: "{{item}}"
