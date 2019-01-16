@@ -21,6 +21,7 @@
        - git
        - figlet
 
+
    - name: adicionando usuarios padroes
      user:
       name: "{{item.nome}}"
