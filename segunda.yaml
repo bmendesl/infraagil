@@ -1,12 +1,22 @@
 - name: segunda playbook
   hosts: docker devops
+  vars:
+    username: null
+    pacote: null
   tasks:
    - name: add a user
      user:
-      name: jorge
+      name: "{{ username }}"
       shell: /bin/bash
+     register: condicao
+     ignore_errors: yes
+   
+   - name: modulo debug
+     debug:
+      var: condicao
 
    - name: installing a package
      apt:
-      name: vim
+      name: "{{ pacote }}"
       state: present
+     when: condicao.failed == false

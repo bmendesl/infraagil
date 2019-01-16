@@ -1,0 +1,17 @@
+EGUNDO PLAYBOOK:
+
+register: condicao - nome que registro para a task
+ignore_erros: yes - ignora se falhar e continua o playbook
+
+Consigo incluir variaveis no playbook e chamaremos playbook ex:
+ansible-playbook -e "username=bruno pacote=cowsay" segunda.yaml
+
+modulo debug:
+
+uma variavel do ansible tem varios valores e o modulo vai me informar qual o valor
+
+TERCEIRO PLAYBOOK:
+
+- trabalho com loop
+   with_items - esse é um modulo que faz o looping
+
