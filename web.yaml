@@ -1,0 +1,4 @@
+- name: first infra como codigo full
+  hosts: all
+  roles:
+   - web

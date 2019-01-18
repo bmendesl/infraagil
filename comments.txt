@@ -15,3 +15,39 @@ TERCEIRO PLAYBOOK:
 - trabalho com loop
    with_items - esse é um modulo que faz o looping
 
+list servicos
+puppet resource service
+
+servico especifico
+puppet resource service cron
+
+puppet resource service ntp ensure=running
+
+puppet resource package
+puppet resource package ntpdate ensure=present
+
+facter
+facter hostname
+
+ss -ntpl | grep 8140
+
+vim /etc/default/puppetserver
+
+CLIENT
+puppet config print
+fica em segundos
+puppet config set runinterval 60
+
+pdk new module config
+
+# puppet:// == /etc/puppetlabs/code/environment/homolog
+
+ssh -i /etc/keys/devops.pem docker.dexter.com.br
+
+puppet agent -t --server devops.dexter.com.br --environment homolog
+
+puppet cert list
+
+puppet cert sign docker.dexter.com.br
+puppet cert sign --all
+
