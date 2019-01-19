@@ -109,3 +109,9 @@ Validar:
 docker exec firstimage ls /srv
 devops
 devops.bkp
+
+Apagar image
+docker rmi centos
+
+Apagar todas as imagens que nao estao com container
+docker image prune
