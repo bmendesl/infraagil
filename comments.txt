@@ -65,3 +65,47 @@ node docker.dexter.com.br {
         include base
         include apache
 }
+
+
+-----------------------------------------------
+Docker
+
+install docker ubuntu
+
+Servico de gerenciamento de container.
+
+Container - carinha que cria um chroot - se isola. Cria um isolamento de um hash.
+
+
+DOCKER => DOCKER SWARN => KUBERNETES OU K8S => OPENSHIFT OU COREOS OU RANCHEROS
+
+primeira camada - leitura (base-imagem)
+layer2 - container em si
+
+docker container run --name helloword debian ls /etc
+
+docker container ls
+
+docker container ls -a
+
+acessar o entrepoint:
+
+docker attach romantic_goldstine
+
+docker stats romantic_goldstine
+
+Criar uma nova imagem:
+
+docker commit romantic_goldstine minha_ansible 
+
+Copiar arquivo para minha maquina:
+docker cp firstimage:/srv/devops .
+
+
+
+Encaminhar arquivo:
+docker cp devops firstimage:/srv/devops.bkp
+Validar:
+docker exec firstimage ls /srv
+devops
+devops.bkp
