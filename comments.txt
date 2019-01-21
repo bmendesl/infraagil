@@ -179,6 +179,7 @@ docker stop $(docker ps -qa) - pega ate os parados
 remove todos
 docker rm -f $(docker ps -qa)
 
+criado pelo docker compose: "
 
 wordpress_dexter:
  image: wordpress
@@ -192,6 +193,7 @@ mysql_dexter:
  environment:
   MYSQL_ROOT_PASSWORD: dexter - variavel de ambiente 
 
+"
 
 Interface grafica do docker:
 
