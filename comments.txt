@@ -115,3 +115,83 @@ docker rmi centos
 
 Apagar todas as imagens que nao estao com container
 docker image prune
+
+
+
+
+A partir de um arquivo de configuracao:
+docker build -t deploy .
+
+mount de disco
+docker run -dti --name dir -v /srv/data:/data debian
+
+
+Criar volume
+
+docker volume ls
+
+docker volume create --name data
+
+Onde armazena os volumes do docker:
+
+
+root@docker:/srv/data# cd /var/lib/docker/volumes/
+root@docker:/var/lib/docker/volumes# cd data/_data/
+root@docker:/var/lib/docker/volumes/data/_data# ls 
+olamundo
+root@docker:/var/lib/docker/volumes/data/_data# 
+
+
+3 tipos de criar volume no docker:
+
+# docker run -dti -v /srv/data:/dircontainer debian
+# docker run -dti -v data:/dircontainer debian  
+# docker run -dti -v /dircontainer debian
+
+
+Saber os comandos que foram executados na imagem:
+
+docker history <container>
+
+Trazer as infos do container:
+docker inspect <container>
+
+
+usando porta
+
+docker run -d -p <porta da minha maquina><porta do container> --name <nome> 
+
+
+Docker Compose:
+
+https://docs.docker.com/compose/install/
+
+docker-compose --version
+
+Arquivo que colocamos uma serie de instrucoes para rodar o container mais facil
+
+
+Comando bacana, parar todos os conatainers que estao parados:
+
+docker stop $(docker ps -q)
+
+remove todos
+docker rm -f $(docker ps -qa)
+
+
+wordpress_dexter:
+ image: wordpress
+ links: - link para conectar o container
+   - mysql_dexter:mysql
+ ports:
+  - 80:80
+
+mysql_dexter:
+ image: mariadb
+ environment:
+  MYSQL_ROOT_PASSWORD: dexter - variavel de ambiente 
+
+
+Interface grafica do docker:
+
+https://www.portainer.io/
