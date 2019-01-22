@@ -198,3 +198,44 @@ mysql_dexter:
 Interface grafica do docker:
 
 https://www.portainer.io/
+
+-----------------------------------------------------------------------
+
+GIT
+
+Versionamento de codigo:
+
+git log --oneline
+git revert <924a034> - usa qual esta cagado
+git diff master homolog - diff entr branchs
+
+
+
+LOCAL
+
+git init == inicia um repo local
+git add == adiciona arquivo para ser comitado
+git commit -m "text" == versiona o arquivo
+
+----------------------------------------------
+REMOTO
+
+
+git init == inicia um repo local
+git add == adiciona arquivo para ser comitado
+git commit -m "text" == versiona o arquivo
+git remote add ALIASREPO URL
+git push ALIASREPO BRANCH (master)
+
+----------------------------------------------
+EM OUTRO LOCAL
+
+git clone URLREPO = criar um diretorio com init e remote ja adicionado
+
+
+
+sonarqube
+code small
+bugs
+qualygate
+vulnerabilidade
