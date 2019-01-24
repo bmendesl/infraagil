@@ -239,3 +239,40 @@ code small
 bugs
 qualygate
 vulnerabilidade
+
+----------------------------------------------------------
+
+Proxy reverso
+
+> Ao inves de usar o -p na criacao do docker, vamos apontar para o proxy reverso para a aplicacao conseguir sair.
+> docker-compose up -d - para nao se conectar nos containers
+site_web:
+ image: httpd
+ volumes:
+   - /srv/web1:/usr/local/apache2/htdocs
+
+site_web2:
+ image: httpd
+ volumes:
+   - /srv/web2:/usr/local/apache2/htdocs
+
+> traffic e cong - load balancers
+
+cd /etc/nginx/sites-enabled/
+rm default
+vim docker.conf :
+
+/ - qual diretorio que do servidor que ira redirecionar	
+
+server {
+	server_name: dexter.com.br
+        listen 80;
+        location / { proxy_pass http://172.17.0.2;}
+}
+
+server {
+        listen 80;
+        location / { proxy_pass http://172.17.0.2; }
+}
+
+
