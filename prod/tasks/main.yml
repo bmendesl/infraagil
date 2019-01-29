@@ -1,0 +1,6 @@
+---
+# tasks file for prod
+- name: fazendo deploy da producao
+  service:
+   name: nginx
+   state: reloaded
