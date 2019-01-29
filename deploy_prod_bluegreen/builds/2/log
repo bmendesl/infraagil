@@ -1,0 +1,68 @@
+Started by upstream project "[8mha:////4IyPywJncHnaHPi1qoO+iEkokqDF/TlQexPkI9ADoi0gAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2S1OKS+KSc0tT0otTUPH0AXuyabMkAAAA=[0mtest_bluegreen" build number [8mha:////4EMN+d74GlRpON2yUiSRD8v7hgtwtGNfSEwzdcGhdmJOAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/ZLU4pL4pJzS1PSi1NQ8fSMAzVMZY8oAAAA=[0m2
+originally caused by:
+ Started by upstream project "[8mha:////4LW0c+wvw6yWSOAHg1dABN4SVX95VVkSOZic2GJ9U7N3AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP2U1IKc/Mr4pJzS1PSi1NQ8fQDMJk/pywAAAA==[0mdeploy_bluegreen" build number [8mha:////4FLA2ICPmgjFboQmepPPq29O6JhSjGwRB5sAq7cZRLMUAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnH9rPwk/ZTUgpz8yviknNLU9KLU1Dx9IwCDqjM5zAAAAA==[0m2
+ originally caused by:
+  Started by upstream project "[8mha:////4P6SUdP6TMtyqBMeFmhqejArCsLx8Q4AqkopwfZT1GUqAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH2g2pLEzLzUoviknNLU9KLU1Dx9AIHP6/bOAAAA[0mcontainer_bluegreen" build number [8mha:////4Kxyz8e2A7kkM9vEqz+F/Ft+gzE5OhtOA6UXbvMAbDTcAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBin9rPwkfaDaksTMvNSi+KSc0tT0otTUPH0jAKUxJTvPAAAA[0m2
+  originally caused by:
+   Started by upstream project "[8mha:////4Pga6WPnjTn9qSv4qSOGqYXlQa8D60K+TooL7nY8kvlbAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2k0syclPiknNLU9KLU1Dx9AOWivfvKAAAA[0mbuild_bluegreen" build number [8mha:////4NcAogNbHsk/0FNk7sz5zLQ2LavqLBsnuBWABKBXgfglAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjH9rPwk/aTSzJyU+KSc0tT0otTUPH0jAGjcXNbLAAAA[0m2
+   originally caused by:
+    Started by user [8mha:////4KUFEez3ehUdBFjG0gwUlzJxq2CpTbXY0A25kohjoDZ4AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Building remotely on [8mha:////4CsvpAwv0A+UQ+97pN6yMbc15PrKazTxwkiUjsl3Jh0rAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/ZTUsvyCYgAbl/2QxQAAAA==[0mdevops in workspace /opt/jenkins/workspace/deploy_prod_bluegreen
+[deploy_prod_bluegreen] $ ansible-playbook /etc/ansible/playbooks/prod_bluegreen.yaml -f 5
+ ___________________________________
+< PLAY [fazendo deploy em producao] >
+ -----------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br]
+ __________________________________________
+< TASK [prod : fazendo deploy da producao] >
+ ------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+fatal: [docker.dexter.com.br]: FAILED! => {"changed": false, "msg": "value of state must be one of: reloaded, restarted, started, stopped, got: reload"}
+	to retry, use: --limit @/etc/ansible/playbooks/prod_bluegreen.retry
+ ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+docker.dexter.com.br       : ok=1    changed=0    unreachable=0    failed=1   
+
+FATAL: command execution failed
+hudson.AbortException: Ansible playbook execution failed
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:262)
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:232)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1810)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ERROR: Ansible playbook execution failed
+Finished: FAILURE

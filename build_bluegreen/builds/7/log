@@ -1,0 +1,68 @@
+Started by GitLab push by Administrator
+Building remotely on [8mha:////4CsvpAwv0A+UQ+97pN6yMbc15PrKazTxwkiUjsl3Jh0rAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/ZTUsvyCYgAbl/2QxQAAAA==[0mdevops in workspace /opt/jenkins/workspace/build_bluegreen
+[build_bluegreen] $ ansible-playbook /etc/ansible/playbooks/build_bluegreen.yaml -f 5
+ _______________________________________
+< PLAY [criando o ambiente como codigo] >
+ ---------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br]
+ _______________________________________________
+< TASK [build : garantir os pacotes instalados] >
+ -----------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br] => (item=nginx)
+ok: [docker.dexter.com.br] => (item=python-pip)
+ok: [docker.dexter.com.br] => (item=docker-ce)
+ _______________________________________________
+< TASK [build : garantindo os servicos rodando] >
+ -----------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br] => (item=docker)
+ok: [docker.dexter.com.br] => (item=nginx)
+ _______________________________________
+< TASK [build : garantindo o docker-py] >
+ ---------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br]
+ ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+docker.dexter.com.br       : ok=4    changed=0    unreachable=0    failed=0   
+
+Triggering a new build of [8mha:////4P6SUdP6TMtyqBMeFmhqejArCsLx8Q4AqkopwfZT1GUqAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH2g2pLEzLzUoviknNLU9KLU1Dx9AIHP6/bOAAAA[0mcontainer_bluegreen
+Finished: SUCCESS

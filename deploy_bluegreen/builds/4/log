@@ -1,0 +1,119 @@
+Started by upstream project "[8mha:////4P6SUdP6TMtyqBMeFmhqejArCsLx8Q4AqkopwfZT1GUqAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH2g2pLEzLzUoviknNLU9KLU1Dx9AIHP6/bOAAAA[0mcontainer_bluegreen" build number [8mha:////4DTzjXh04gcEXdbJ5SUxBd5WucCM2fUjUpBq0csht/qdAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBin9rPwkfaDaksTMvNSi+KSc0tT0otTUPH0TAJCURtLPAAAA[0m4
+originally caused by:
+ Started by upstream project "[8mha:////4Pga6WPnjTn9qSv4qSOGqYXlQa8D60K+TooL7nY8kvlbAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2k0syclPiknNLU9KLU1Dx9AOWivfvKAAAA[0mbuild_bluegreen" build number [8mha:////4IgtpYrMT7Z8uc2j8ORHKKO6Myvv1YktqU0pEu21TYudAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjH9rPwk/aTSzJyU+KSc0tT0otTUPH0TAF15Pz/LAAAA[0m4
+ originally caused by:
+  Started by user [8mha:////4KUFEez3ehUdBFjG0gwUlzJxq2CpTbXY0A25kohjoDZ4AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Building remotely on [8mha:////4CsvpAwv0A+UQ+97pN6yMbc15PrKazTxwkiUjsl3Jh0rAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/ZTUsvyCYgAbl/2QxQAAAA==[0mdevops in workspace /opt/jenkins/workspace/deploy_bluegreen
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url http://192.168.33.151/root/bluegreen.git # timeout=10
+Fetching upstream changes from http://192.168.33.151/root/bluegreen.git
+ > git --version # timeout=10
+ > git fetch --tags --progress http://192.168.33.151/root/bluegreen.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 074b69513f0a1828853176065c9e0a26b3b75a30 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 074b69513f0a1828853176065c9e0a26b3b75a30
+Commit message: "Update index.html"
+ > git rev-list --no-walk 074b69513f0a1828853176065c9e0a26b3b75a30 # timeout=10
+[deploy_bluegreen] $ ansible-playbook /etc/ansible/playbooks/deploy_bluegreen.yaml -f 5
+ _________________________________________
+< PLAY [realizando o deploy da aplicacao] >
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br]
+ ________________________________________________________
+< TASK [deploy : verificando o container que esta no ar] >
+ --------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br]
+ __________________________________
+< TASK [deploy : copiando a index] >
+ ----------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+changed: [docker.dexter.com.br] => (item={u'destino': u'/srv/green/', u'condicao': False})
+skipping: [docker.dexter.com.br] => (item={u'destino': u'/srv/blue/', u'condicao': True}) 
+ _________________________________________________
+< TASK [deploy : pegando o ip do container green] >
+ -------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+changed: [docker.dexter.com.br]
+ ________________________________________________
+< TASK [deploy : pegando o ip do container blue] >
+ ------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+changed: [docker.dexter.com.br]
+ _____________________________________
+< TASK [deploy : copiando o template] >
+ -------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+failed: [docker.dexter.com.br] (item={u'destino': u'/etc/nginx/sites-enable/green.conf', u'condicao': False, u'origem': u'templates/vhost_green.conf'}) => {"changed": false, "checksum": "5e68d3bcf3d58894bb5e60153ef7297d758ebf43", "item": {"condicao": false, "destino": "/etc/nginx/sites-enable/green.conf", "origem": "templates/vhost_green.conf"}, "msg": "Destination directory /etc/nginx/sites-enable does not exist"}
+skipping: [docker.dexter.com.br] => (item={u'destino': u'/etc/nginx/sites-enable/blue.conf', u'condicao': True, u'origem': u'templates/vhost_blue.conf'}) 
+	to retry, use: --limit @/etc/ansible/playbooks/deploy_bluegreen.retry
+ ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+docker.dexter.com.br       : ok=5    changed=3    unreachable=0    failed=1   
+
+FATAL: command execution failed
+hudson.AbortException: Ansible playbook execution failed
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:262)
+	at org.jenkinsci.plugins.ansible.AnsiblePlaybookBuilder.perform(AnsiblePlaybookBuilder.java:232)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:504)
+	at hudson.model.Run.execute(Run.java:1810)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ERROR: Ansible playbook execution failed
+Finished: FAILURE

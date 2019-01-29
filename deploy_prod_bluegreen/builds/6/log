@@ -1,0 +1,52 @@
+Started by upstream project "[8mha:////4IyPywJncHnaHPi1qoO+iEkokqDF/TlQexPkI9ADoi0gAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2S1OKS+KSc0tT0otTUPH0AXuyabMkAAAA=[0mtest_bluegreen" build number [8mha:////4IpZtXof997yinLWM08bN36F4J/g5pMUbLhO9QwP4avpAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/ZLU4pL4pJzS1PSi1NQ8fTMA1Jd0ZMoAAAA=[0m6
+originally caused by:
+ Started by upstream project "[8mha:////4LW0c+wvw6yWSOAHg1dABN4SVX95VVkSOZic2GJ9U7N3AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP2U1IKc/Mr4pJzS1PSi1NQ8fQDMJk/pywAAAA==[0mdeploy_bluegreen" build number [8mha:////4FsAQFoDwfE7qNrl2qibj7qkpT4Wajlv7xTgxq6d5ALUAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnH9rPwk/ZTUgpz8yviknNLU9KLU1Dx9cwAMXllJzAAAAA==[0m7
+ originally caused by:
+  Started by upstream project "[8mha:////4P6SUdP6TMtyqBMeFmhqejArCsLx8Q4AqkopwfZT1GUqAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH2g2pLEzLzUoviknNLU9KLU1Dx9AIHP6/bOAAAA[0mcontainer_bluegreen" build number [8mha:////4O5+Neg5IEvyYEfiBAJBnRpbUmUQsm6BIcpLTGT3MLv+AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBin9rPwkfaDaksTMvNSi+KSc0tT0otTUPH1zACrFT0vPAAAA[0m7
+  originally caused by:
+   Started by upstream project "[8mha:////4Pga6WPnjTn9qSv4qSOGqYXlQa8D60K+TooL7nY8kvlbAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2k0syclPiknNLU9KLU1Dx9AOWivfvKAAAA[0mbuild_bluegreen" build number [8mha:////4KmQns9lcb9pIz9u5Hxa3uuwmHv7pl31EkQfYuQOytg7AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjH9rPwk/aTSzJyU+KSc0tT0otTUPH1zAOcoNqbLAAAA[0m7
+   originally caused by:
+    Started by GitLab push by Administrator
+Building remotely on [8mha:////4CsvpAwv0A+UQ+97pN6yMbc15PrKazTxwkiUjsl3Jh0rAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/ZTUsvyCYgAbl/2QxQAAAA==[0mdevops in workspace /opt/jenkins/workspace/deploy_prod_bluegreen
+[deploy_prod_bluegreen] $ ansible-playbook /etc/ansible/playbooks/prod_bluegreen.yaml -f 5
+ ___________________________________
+< PLAY [fazendo deploy em producao] >
+ -----------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br]
+ __________________________________________
+< TASK [prod : fazendo deploy da producao] >
+ ------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+changed: [docker.dexter.com.br]
+ ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+docker.dexter.com.br       : ok=2    changed=1    unreachable=0    failed=0   
+
+Finished: SUCCESS

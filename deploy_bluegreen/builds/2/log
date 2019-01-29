@@ -1,0 +1,126 @@
+Started by upstream project "[8mha:////4P6SUdP6TMtyqBMeFmhqejArCsLx8Q4AqkopwfZT1GUqAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JH2g2pLEzLzUoviknNLU9KLU1Dx9AIHP6/bOAAAA[0mcontainer_bluegreen" build number [8mha:////4Kxyz8e2A7kkM9vEqz+F/Ft+gzE5OhtOA6UXbvMAbDTcAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBin9rPwkfaDaksTMvNSi+KSc0tT0otTUPH0jAKUxJTvPAAAA[0m2
+originally caused by:
+ Started by upstream project "[8mha:////4Pga6WPnjTn9qSv4qSOGqYXlQa8D60K+TooL7nY8kvlbAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2k0syclPiknNLU9KLU1Dx9AOWivfvKAAAA[0mbuild_bluegreen" build number [8mha:////4NcAogNbHsk/0FNk7sz5zLQ2LavqLBsnuBWABKBXgfglAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjH9rPwk/aTSzJyU+KSc0tT0otTUPH0jAGjcXNbLAAAA[0m2
+ originally caused by:
+  Started by user [8mha:////4KUFEez3ehUdBFjG0gwUlzJxq2CpTbXY0A25kohjoDZ4AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Building remotely on [8mha:////4CsvpAwv0A+UQ+97pN6yMbc15PrKazTxwkiUjsl3Jh0rAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/ZTUsvyCYgAbl/2QxQAAAA==[0mdevops in workspace /opt/jenkins/workspace/deploy_bluegreen
+Cloning the remote Git repository
+Cloning repository http://192.168.33.151/root/bluegreen.git
+ > git init /opt/jenkins/workspace/deploy_bluegreen # timeout=10
+Fetching upstream changes from http://192.168.33.151/root/bluegreen.git
+ > git --version # timeout=10
+ > git fetch --tags --progress http://192.168.33.151/root/bluegreen.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url http://192.168.33.151/root/bluegreen.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://192.168.33.151/root/bluegreen.git # timeout=10
+Fetching upstream changes from http://192.168.33.151/root/bluegreen.git
+ > git fetch --tags --progress http://192.168.33.151/root/bluegreen.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 074b69513f0a1828853176065c9e0a26b3b75a30 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 074b69513f0a1828853176065c9e0a26b3b75a30
+Commit message: "Update index.html"
+ > git rev-list --no-walk 074b69513f0a1828853176065c9e0a26b3b75a30 # timeout=10
+[deploy_bluegreen] $ ansible-playbook /etc/ansible/playbooks/deploy_bluegreen.yaml -f 5
+ _________________________________________
+< PLAY [realizando o deploy da aplicacao] >
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br]
+ ________________________________________________________
+< TASK [deploy : verificando o container que esta no ar] >
+ --------------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br]
+ __________________________________
+< TASK [deploy : copiando a index] >
+ ----------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ [WARNING]: when statements should not include jinja2 templating delimiters
+such as {{ }} or {% %}. Found: vhost.stat.exists == "{{item.condicao}}"
+skipping: [docker.dexter.com.br] => (item={u'destino': u'/srv/green/', u'condicao': False}) 
+skipping: [docker.dexter.com.br] => (item={u'destino': u'/srv/blue/', u'condicao': True}) 
+ _________________________________________________
+< TASK [deploy : pegando o ip do container green] >
+ -------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+changed: [docker.dexter.com.br]
+ ________________________________________________
+< TASK [deploy : pegando o ip do container blue] >
+ ------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+changed: [docker.dexter.com.br]
+ _____________________________________
+< TASK [deploy : copiando o template] >
+ -------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ [WARNING]: when statements should not include jinja2 templating delimiters
+such as {{ }} or {% %}. Found: vhost.stat.exists == "{{item.condicao}}"
+skipping: [docker.dexter.com.br] => (item={u'destino': u'/etc/nginx/sites-enable/green.conf', u'condicao': False, u'origem': u'templates/vhost_green.conf'}) 
+skipping: [docker.dexter.com.br] => (item={u'destino': u'/etc/nginx/sites-enable/blue.conf', u'condicao': True, u'origem': u'templates/vhost_blue.conf'}) 
+ _____________________________________
+< TASK [deploy : apagando o ambiente] >
+ -------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ [WARNING]: when statements should not include jinja2 templating delimiters
+such as {{ }} or {% %}. Found: vhost.stat.exists == "{{item.condicao}}"
+skipping: [docker.dexter.com.br] => (item={u'condicao': True, u'origem': u'/etc/nginx/sites-enable/green.conf'}) 
+skipping: [docker.dexter.com.br] => (item={u'condicao': False, u'origem': u'/etc/nginx/sites-enable/blue.conf'}) 
+ ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+docker.dexter.com.br       : ok=4    changed=2    unreachable=0    failed=0   
+
+Triggering a new build of [8mha:////4IyPywJncHnaHPi1qoO+iEkokqDF/TlQexPkI9ADoi0gAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP2S1OKS+KSc0tT0otTUPH0AXuyabMkAAAA=[0mtest_bluegreen
+Finished: SUCCESS

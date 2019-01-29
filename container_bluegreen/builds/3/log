@@ -1,0 +1,48 @@
+Started by upstream project "[8mha:////4Pga6WPnjTn9qSv4qSOGqYXlQa8D60K+TooL7nY8kvlbAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP2k0syclPiknNLU9KLU1Dx9AOWivfvKAAAA[0mbuild_bluegreen" build number [8mha:////4MtLHPkcrCdPSOuVs9TaWlUC0WHCRvSLPYEryazhX4ssAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjH9rPwk/aTSzJyU+KSc0tT0otTUPH1jAP7sW6HLAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4KUFEez3ehUdBFjG0gwUlzJxq2CpTbXY0A25kohjoDZ4AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9lNSy/IJiAEFU5gjBAAAA[0mdevops
+Building remotely on [8mha:////4CsvpAwv0A+UQ+97pN6yMbc15PrKazTxwkiUjsl3Jh0rAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/ZTUsvyCYgAbl/2QxQAAAA==[0mdevops in workspace /opt/jenkins/workspace/container_bluegreen
+[container_bluegreen] $ ansible-playbook /etc/ansible/playbooks/container_bluegreen.yaml -f 5
+ ________________________________
+< PLAY [criando o meu container] >
+ --------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ ________________________
+< TASK [Gathering Facts] >
+ ------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br]
+ _____________________________________________________
+< TASK [container : garantindo meus containers no ar] >
+ -----------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [docker.dexter.com.br] => (item={u'volume': u'/srv/blue', u'nome': u'blue'})
+ok: [docker.dexter.com.br] => (item={u'volume': u'/srv/green', u'nome': u'green'})
+ ____________
+< PLAY RECAP >
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+docker.dexter.com.br       : ok=2    changed=0    unreachable=0    failed=0   
+
+Triggering a new build of [8mha:////4LW0c+wvw6yWSOAHg1dABN4SVX95VVkSOZic2GJ9U7N3AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP2U1IKc/Mr4pJzS1PSi1NQ8fQDMJk/pywAAAA==[0mdeploy_bluegreen
+Finished: SUCCESS
